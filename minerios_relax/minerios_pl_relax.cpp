@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
     }
     printf("Parâmetros:\nNome\t");
     for (int i = 0; i < I; i++) printf("%s\t", NomePilha[i]);
-    printf("TeorMin\tTeorMax\n");
+    printf("TeorMin\tTeorMax\tPesoNegativo\tPesoPositivo\n");
     for (int j = 0; j < J; j++) {
         printf("%s\t", NomeParametro[j]);
         for (int i = 0; i < I; i++) {

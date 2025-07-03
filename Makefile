@@ -1,5 +1,5 @@
 all: 
-	$(CCC) $(CCFLAGS) $(GCC_FLAGS) minerios_relax/minerios_pl_relax.cpp -o main $(CCLNFLAGS)
+	$(CCC) $(CCFLAGS) $(GCC_FLAGS) minerios_metas/minerios_pl_metas.cpp -o main $(CCLNFLAGS)
 
 
 ######################### NÃO ALTERAR ABAIXO ###########################
